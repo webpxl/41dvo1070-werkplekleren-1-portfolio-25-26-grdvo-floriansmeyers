@@ -2,69 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Florian Smeyers – Portfolio</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- Styles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florian Smeyers - Design & Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header with background image -->
-    <header class="header">
+    <div class="container">
         <!-- Navigation -->
         <nav>
-            <div class="nav-logo">Florian Smeyers</div>
+            <div class="logo">FS</div>
             <ul class="nav-links">
-                <li><a href="#work">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="cta-button">Get a quote</a></li>
             </ul>
         </nav>
 
-        <!-- Hero section -->
+        <!-- Hero Section -->
         <section class="hero">
-            <span class="role-badge">Designer & Developer</span>
+            <div class="hero-content">
+                <h1>
+                    <span>Design that</span>
+                    <span class="emphasis">reveals<span class="period">.</span></span>
+                </h1>
 
-            <h1 class="headline">
-                Florian <span class="accent">Smeyers</span>
-            </h1>
+                <p class="hero-description">
+                    Creating thoughtful digital experiences that bring clarity to complexity.
+                    Strategic design and development for brands that value craft.
+                </p>
 
-            <p class="description">
-                I craft thoughtful digital experiences with attention to detail and a focus on clarity.
-                Combining design and development to create meaningful work.
-            </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="cta-button">Start a project</a>
+                </div>
 
-            <a href="#work" class="cta-button">Explore my work</a>
-        </section>
-    </header>
-
-    <!-- Main container -->
-    <div class="container">
-        <!-- Stats section -->
-        <section class="stats">
-            <div class="stat">
-                <div class="stat-number">5+</div>
-                <div class="stat-label">Years Experience</div>
-            </div>
-            <div class="stat">
-                <div class="stat-number">20+</div>
-                <div class="stat-label">Projects Completed</div>
-            </div>
-            <div class="stat">
-                <div class="stat-number">100%</div>
-                <div class="stat-label">Client Satisfaction</div>
+                <!-- Social Proof -->
+                <div class="social-proof">
+                    <div class="avatar">FS</div>
+                    <div class="testimonial">
+                        <p class="testimonial-text">"Exceptional attention to detail and vision"</p>
+                        <p class="testimonial-author"><strong>Sarah Chen</strong> · Creative Director, Studio X</p>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
-
-    <!-- Placeholder sections so anchors resolve -->
-    <section id="work" class="work placeholder" aria-label="Work">
-        <!-- Work content coming soon -->
-    </section>
-
-    <section id="contact" class="contact placeholder" aria-label="Contact">
-        <!-- Contact content coming soon -->
-    </section>
 </body>
 </html>
